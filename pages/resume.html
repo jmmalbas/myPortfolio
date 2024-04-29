@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .content-container {
+            background-color: rgba(214, 214, 215, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 0 auto; /* Center horizontally */
+            max-width: 90%;
+            text-align: justify;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            overflow-y: auto; /* Enable vertical scroll */
+            max-height: 80vh; /* Limit the maximum height for scrolling */
+        }
+
+        .profile-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 50%; /* Create a circular shape */
+            overflow: hidden; /* Hide the parts of the image outside the circle */
+            width: 150px; /* Adjust the width of the circular image */
+            height: 150px; /* Adjust the height of the circular image */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        td:first-child {
+            width: 30%;
+        }
+
+        h1, h2 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .work-experience {
+            margin-bottom: 20px;
+        }
+
+        .work-experience h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .work-experience p {
+            margin-bottom: 5px;
+        }
+
+        .work-experience .company {
+            font-weight: bold;
+        }
+
+        .work-experience .job-title {
+            font-style: italic;
+            
+        }
+
+        .work-experience .job-dates {
+            font-style: italic;
+        }
+
+        .work-experience .job-location {
+            font-style: italic;
+            color: #666;
+        }
+
+        .work-experience .job-description {
+            margin-top: 10px;
+        }
+
+        .footer-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer-buttons button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+        }
+
+        .footer-buttons button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center; /* Center the text horizontally */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-container">
+        <header>
+            <h1>WORK EXPERIENCE</h1>
+        </header>
+        <main>
+            <div class="professional-summary">
+                
+                <div class="work-experience">
+                    <div class="job">
+                        <p class="company">Accenture Inc.</p>
+                        <p class="job-title">Database Administrator</p>
+                        <p class="job-dates">May 2021 – December 2022</p>
+                        <p class="job-location">Robinsons Cybergate Bldg. Mandaluyong City, Philippines</p>
+                        <div class="job-description">
+                            <ul>
+                                <li>Perform database performance tuning and capacity planning for MSSQL.</li>
+                                <li>Conduct essential database administrative tasks, including procedures, upgrades, migrations, backups, and recovery operations.</li>
+                                <li>Ensure database security, integrity, stability, and system availability are maintained at all times.</li>
+                                <li>Provide round-the-clock support for a retail industry project in the United States, adhering to a 24/7 shifting schedule.</li>
+                                <li>Create reports, documentation, and operating manuals.</li>
+                                <li>Collaborate in bridge calls and liaise with vendors to address maintenance and resolve high severity incidents.</li>
+                                <li>Offer on-call support as necessary, responding promptly to resolve issues.</li>
+                                <li>Develop and manage various database elements including jobs, scripts, views, schema, stored procedures, and data administration policies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="job">
+                        <p class="company">DXC Technology (HP Enterprise)</p>
+                        <p class="job-title">Database Administrator</p>
+                        <p class="job-dates">September 2020 – May 2021</p>
+                        <p class="job-location">Upper McKinley Rd, Taguig, 1634 Metro Manila, Philippines</p>
+                        <div class="job-description">
+                            <ul>
+                                <li>Configure Oracle Data Guard and manage Oracle RMAN backup, as well as the data pump utility.</li>
+                                <li>Provide support on a 24/7 shifting schedule for the banking industry in Canada.</li>
+                                <li>Administer Oracle, MSSQL, and DB2 databases across development, testing, and production environments.</li>
+                                <li>Actively participate in bridge calls and collaborate with vendors to address maintenance and resolve high severity incidents.</li>
+                                <li>Perform essential database tasks, including maintenance, monitoring, tuning, backup, restoration, and script execution.</li>
+                                <li>Develop and implement policies and procedures for database access, usage, and data backup and recovery.</li>
+                                <li>Supervise Oracle Autosys tasks, SQL maintenance jobs, and Oracle performance within a Real Application Clusters (RAC) environment.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <p class="company">ABS-CBN Corporation</p>
+                        <p class="job-title">Database Administrator</p>
+                        <p class="job-dates">July 2018 – August 2020</p>
+                        <p class="job-location">Sgt. Esguerra Ave. Quezon City. Philippines</p>
+                        <div class="job-description">
+                            <ul>
+                                <li>Administer databases, including MSSQL, Oracle, MySQL, and cloud databases on platforms like Azure, AWS, and Oracle Cloud.</li>
+                                <li>Develop jobs, scripts, views, schema, stored procedures, and data administration policies.</li>
+                                <li>Create procedures for managing database access and ensuring data backup and recovery.</li>
+                                <li>Implement Oracle Data Guard configuration and Oracle RMAN backup, along with the data pump utility for Oracle Enterprise databases.</li>
+                                <li>Configure MSSQL mirroring, log shipping, and replication.</li>
+                                <li>Possess expertise in Microsoft SQL Server versions spanning from 2003 to 2019, as well as various operating systems such as Linux, UNIX, RHEL, and Windows.</li>
+                                <li>Manage MSSQL and Oracle server installations, upgrades, migrations, and configurations.</li>
+                                <li>Enhance database security using technologies like Vormetric and TDE for MSSQL and Oracle.</li>
+                                <li>Conduct database performance tuning and capacity planning.</li>
+                                <li>Oversee data migration to cloud platforms like Azure and Amazon.</li>
+                                <li>Continuously monitor database performance, apply necessary changes, and stay updated with patches.</li>
+                                <li>Provide on-call support as required.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <p class="company">ABS-CBN Corporation</p>
+                        <p class="job-title">System Admin & SAP Basis Administrator</p>
+                        <p class="job-dates">March 2013 – September 2016</p>
+                        <p class="job-location">Garint Global Equipment and Information Technology Corporation, Philippines</p>
+                        <div class="job-description">
+                            <p><strong>SAP BASIS Administrator:</strong></p>
+                            <ul>
+                                <li>Deploy and oversee various SAP environments (GEL, Development, QAS, Production).</li>
+                                <li>Manage SAP user accounts, handling authorization and user account creation/deletion.</li>
+                                <li>Configure and administer SAP spool settings for printing.</li>
+                                <li>Monitor and maintain performance for SAP applications and CITRIX servers.</li>
+                                <li>Install and configure SAP GUI on client computers.</li>
+                                <li>Perform daily backup operations, ensuring successful backup of file systems and system data.</li>
+                                <li>Manage request and transport management systems.</li>
+                                <li>Work on a 24/7 shifting schedule and provide on-call support as needed.</li>
+                            </ul>
+                            <p><strong>System Administrator:</strong></p>
+                            <ul>
+                                <li>Perform server administration tasks, including user/group management, security permissions, hardware upgrades, patch management, and system monitoring.</li>
+                                <li>Manage Microsoft Office 365 and IBM Domino Lotus Notes Mail Database tasks.</li>
+                                <li>Conduct data backups using HP Data Protector Manager and administer email notifications via Linux/Unix.</li>
+                                <li>Set up virtual machines in Microsoft HyperV and VMware vSphere.</li>
+                                <li>Lead server upgrades, configuring hardware, peripherals, storage, and security measures.</li>
+                                <li>Maintain internal infrastructure, supporting servers, computers, routers, switches, and security updates.</li>
+                                <li>Collaborate with help desk and teams for troubleshooting and technical support.</li>
+                                <li>Monitor data center health, promptly addressing hardware issues and contributing to server maintenance.</li>
+                                <li>Operate on a 24/7 shifting schedule and provide on-call support as needed.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <p class="company">ABS-CBN Corporation</p>
+                        <p class="job-title">Computer Support Technician II</p>
+                        <p class="job-dates">July 2011 – Feb. 2013</p>
+                        <p class="job-location">Garint Global Equipment and Information Technology Corporation, Philippines</p>
+                        <div class="job-description">
+                            <ul>
+                                <li>Installing and configuring operating systems, application software, antivirus programs, Windows patches, and system registries.</li>
+                                <li>Conducting diagnostics and repairs for computer hardware, networks, printers, scanners, and mobile devices.</li>
+                                <li>Executing data backup procedures and managing disaster recovery operations.</li>
+                                <li>Administering and troubleshooting LAN and WAN networks.</li>
+                                <li>Participating in testing and redesign of new computer hardware and applications.</li>
+                                <li>Providing training and supervision to level 1 technical support team members.</li>
+                                <li>Deploying to various regional offices for TV news and production support.</li>
+                                <li>Offering troubleshooting and support for Windows and MAC devices, Microsoft Office 365, Microsoft Teams, Microsoft Outlook, and specialized software packages.</li>
+                                <li>Delivering onsite and remote technical support, managing the ServiceDesk Ticketing system.</li>
+                                <li>Adhering to a demanding 24/7 shifting schedule.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <p class="company">OTHER WORK EXPERIENCE:</p>
+                        <p class="company">U-Haul</p>
+                        <p class="job-title">Customer Service Representative (Part-Time)</p>
+                        <p class="job-dates">Nov. 2023 – Present</p>
+                        <p class="job-location">2615 12 St NE, Calgary, AB T2E 7W9</p>
+                        <div class="job-description">
+                            <ul>
+                                <li>Provide exceptional customer service both inside and outside the U-Haul center, assisting customers with various U-Haul products and services.</li>
+                                <li>Utilize U-Scan technology on smartphones to efficiently manage rentals and inventory.</li>
+                                <li>Perform tasks such as moving and connecting U-Haul trucks and trailers, conducting equipment inspections, and checking.</li>
+                                <li>Proactively address customer inquiries, offering comprehensive information about available products and services.</li>
+                                <li>Handle rental transactions, generate invoices, and manage the return process for equipment.</li>
+                                <li>Demonstrate expertise in installing hitches and trailer wiring.</li>
+                                <li>Embrace additional responsibilities as assigned.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Add more job experiences as needed -->
+                </div>
+            </div>
+            <div class="footer-buttons">
+                <button onclick="window.location.href='index.html'">Home</button>
+                <button onclick="window.location.href='certification.html'">Certification</button>
+                <button onclick="window.location.href='skills.html'">Skills</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 JOHN MICHAEL V. MALBAS</p>
+        </footer>
+    </div>
+</body>
+
+</html>

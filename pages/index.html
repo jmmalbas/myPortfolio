@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .content-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 0 auto; /* Center horizontally */
+            max-width: 800px;
+            text-align: justify;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+        }
+
+        .button-container button:hover {
+            background-color: #555;
+        }
+
+        .professional-summary {
+            margin-bottom: 20px;
+        }
+
+        .professional-summary p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        /* Style for the circular image */
+        .profile-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 50%; /* Create a circular shape */
+            overflow: hidden; /* Hide the parts of the image outside the circle */
+            width: 300px; /* Adjust the width of the circular image */
+            height: 300px; /* Adjust the height of the circular image */
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="content-container">
+        <header>
+            
+        </header>
+        <main>
+            <div class="professional-summary">
+                                         <!-- Circular profile image -->
+                                        <img src="https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=194073&inputFormat=jpg&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!rFhlhP82V0ScInWKbnv0QHJfD5Box9dDhBSJ7BFzr9rD8fF4PWTgR5yb7EIQGDv1%2Fitems%2F01V4GGWNSJBB6ZRD6GQZHJUZF4BPJTENEJ%3Ftempauth%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfZGlzcGxheW5hbWUiOiJDb25zdW1lciBBcHA6IDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDA0ODE3MTBhNCIsImFwcGlkIjoiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0IiwiYXVkIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL215Lm1pY3Jvc29mdHBlcnNvbmFsY29udGVudC5jb21AOTE4ODA0MGQtNmM2Ny00YzViLWIxMTItMzZhMzA0YjY2ZGFkIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MDAwMzAwMDAyNTQyYmI0YUBsaXZlLmNvbSIsImVuZHBvaW50dXJsIjoiNDJ5VEtDTm9NRS83UXdOM0Uzd0NSNm9Fd0pQejJVOUNPQkhjQjNWL1JZcz0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE2NCIsImV4cCI6IjE3MTQzMDU2MDAiLCJpcGFkZHIiOiIxNDIuMTEwLjQuMTU2IiwiaXNsb29wYmFjayI6IlRydWUiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzE0Mjg0MDAwIiwicHVpZCI6IjAwMDMwMDAwMjU0MkJCNEEiLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjMyMjg3MjYxMDMxODEzMDU0NTkiLCJzaXRlaWQiOiJPRFEyTlRVNFlXTXRNelptWmkwME5EVTNMVGxqTWpJdE56VTRZVFpsTjJKbU5EUXciLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJ0dCI6IjIiLCJ1cG4iOiJqb2hubWljaGFlbHZpbGxvcmVudGVtYWxiYXNAeWFob28uY29tLnBoIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiJ9.QMe9dZ3FOBvmrqrmMErZs8LDSVng8R3agz2fctXitWI%26version%3DPublished&cb=63849883501&encodeFailures=1&width=1600&height=905" alt="Profile Image" class="profile-image">
+                                        <h1>JOHN MICHAEL V. MALBAS</h1>
+                                        <p>               
+                    Experienced IT professional with a robust track record spanning over a decade in the industry, encompassing pivotal roles. Possesses extensive expertise in database administration, with a focus on enterprise and cloud-based solutions. Proficient across diverse database platforms, including MSSQL, Oracle, and MySQL, as well as adept at managing cloud databases on Azure, AWS, and Oracle Cloud.                  
+                </p>
+                <p>
+                    Skilled in system administration and SAP basis administration, demonstrating proficiency in server management, configuration, and migration. Additionally, showcases expertise in storage management, Active Directory, Linux, Unix, SAP, and Microsoft Office 365 administration. Consistently delivers results in troubleshooting computer hardware, software, network, application systems, and peripheral equipment as an IT Computer Support II.
+                </p>
+                <p>
+                    Known for providing critical 24/7 support for global projects, ensuring uninterrupted system availability and safeguarding data integrity. Committed to excellence, leveraging a blend of technical prowess, problem-solving abilities, and a proactive approach to support organizational objectives.
+                </p>
+            </div>
+
+            <div class="button-container">
+                <button onclick="window.location.href='resume.html'" style="padding: 10px 20px; background-color: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; margin-right: 10px;">Resume</button>
+                <button onclick="window.location.href='certification.html'" style="padding: 10px 20px; background-color: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; margin-right: 10px;">Certification</button>
+                <button onclick="window.location.href='skills.html'" style="padding: 10px 20px; background-color: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; margin-right: 10px;">Skills</button>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
